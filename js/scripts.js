@@ -1,9 +1,9 @@
 //Business Logic
  
 function validator(number) {
-  if (number.includes(!Number)) {
-   return true;
+  if (!Number(number)) {
+   return false;
   } else {
-    return false;
+    return true;
   }
 }; 
