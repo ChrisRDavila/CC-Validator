@@ -1,7 +1,7 @@
 //Business Logic
-
+ 
 function validator(number) {
-  if (number != undefined) {
+  if (number.includes(!Number)) {
    return true;
   } else {
     return false;
