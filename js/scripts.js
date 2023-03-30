@@ -21,6 +21,6 @@ function validator(number) {
 
 function lengthChecker(number) {
   const numberArray = number.split(" ");
-  numberString = numberArray.join("");
-  return numberString.length();
+  const numberString = numberArray.join("");
+  return numberString.length;
 }
