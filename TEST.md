@@ -22,3 +22,7 @@ Describe: lengthChecker
 Test: The function checks string length ignoring spaces.
 Code: lengthChecker("a string")
 expected output: 7;
+
+Test: function should return true for a value of 16
+Code: lengthChecker("1234 5678 9012 3456")
+expected OutPut: true

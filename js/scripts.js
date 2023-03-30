@@ -22,5 +22,9 @@ function validator(number) {
 function lengthChecker(number) {
   const numberArray = number.split(" ");
   const numberString = numberArray.join("");
-  return numberString.length;
+  if (numberString.length === 16) {
+    return true;
+  } else {
+    return false;
+  }
 }
