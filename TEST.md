@@ -26,3 +26,7 @@ expected output: 7;
 Test: function should return true for a value of 16
 Code: lengthChecker("1234 5678 9012 3456")
 expected OutPut: true
+
+describe" algorithm()
+
+Test: see if algorithm returns 
